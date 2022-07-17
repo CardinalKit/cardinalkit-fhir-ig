@@ -3,7 +3,7 @@
   "name": "CKmHealthFhirIG",
   "package-id": "fhir.CKmHealthToFhir",
   "ig-ver": "1.0.0",
-  "date": "Sun, 17 Jul, 2022 17:25:55 -0400",
+  "date": "Sun, 17 Jul, 2022 19:25:35 -0400",
   "errs": 0,
   "warnings": 8,
   "hints": 0,

@@ -259,4 +259,4 @@ The following is a template used for implementing the mapping described above.
         }
     }
 ```
-Please see the [Examples](examples.html) page for a complete example mapping.
+Please see the [Examples](5_examples.html) page for a complete example mapping.

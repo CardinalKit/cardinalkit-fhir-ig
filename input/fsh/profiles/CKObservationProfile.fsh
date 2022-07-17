@@ -9,7 +9,7 @@ Description: "Observation Profile used for representing mobile health data in Ca
 * . ^mustSupport = false
 * identifier MS
 * status only code
-* status = #unknown (exactly)
+* status = #final (exactly)
 * category MS
 * code MS
 * subject only Reference

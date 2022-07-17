@@ -3,8 +3,8 @@
 
 err = 0, warn = 8, info = 0
 IG Publisher Version: 1.1.125
-Generated Sun Jul 17 17:26:23 EDT 2022. FHIR version 4.0.1 for fhir.CKmHealthToFhir#1.0.0 (canonical = http://cardinalkit.org/fhir)
- Build Errors : 2 / 0 / 0
+Generated Sun Jul 17 19:26:03 EDT 2022. FHIR version 4.0.1 for fhir.CKmHealthToFhir#1.0.0 (canonical = http://cardinalkit.org/fhir)
+ Build Errors : 1 / 0 / 0
  C:\Users\User\code\CKmHealthToFhirIG\CKmHealthToFhirIG\fsh-generated\resources\ImplementationGuide-fhir.CKmHealthToFhir : 0 / 0 / 1
  C:\Users\User\code\CKmHealthToFhirIG\CKmHealthToFhirIG\fsh-generated\resources\codesystem-omh-temporal-relationship-to-meal : 0 / 0 / 1
  C:\Users\User\code\CKmHealthToFhirIG\CKmHealthToFhirIG\fsh-generated\resources\codesystem-omh-temporal-relationship-to-physical-activity : 0 / 0 / 1
@@ -15,7 +15,6 @@ Generated Sun Jul 17 17:26:23 EDT 2022. FHIR version 4.0.1 for fhir.CKmHealthToF
  C:\Users\User\code\CKmHealthToFhirIG\CKmHealthToFhirIG\fsh-generated\resources\valueset-omh-unit-value : 0 / 3 / 1
 </table>
 == n/a ==
-ERROR: C:\Users\User\code\CKmHealthToFhirIG\CKmHealthToFhirIG\output\2_mapping.html#/html/body/div/div/div/div/div/p/a at Line 1144, column 20: The link 'examples.html' for "Examples" cannot be resolved
 ERROR: C:\Users\User\code\CKmHealthToFhirIG\CKmHealthToFhirIG\output\5_examples.html#/html/body/div/div/div/div/div/p/a at Line 188, column 122: The link 'mapping.html' for "Mapping" cannot be resolved
 == fsh-generated\resources\ImplementationGuide-fhir.CKmHealthToFhir.json ==
 == fsh-generated\resources\CodeSystem-omh-temporal-relationship-to-meal.json ==

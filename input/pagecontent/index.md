@@ -1,6 +1,6 @@
 ### Background
 
-[CardinalKit](https://cardinalkit.org) is an open-source digital health mobile app framework consisting of an iOS mobile application template, Google Cloud managed backend, and web-based data dashboard. CardinalKit makes it easy to build a mobile application that collects patient-generated health data, including from wearable devices (e.g. Apple Watch, Fitbit), and represent these data in standardized formats. This Implementation Guide describes how CardinalKit represents mobile health data as FHIR resources.
+[CardinalKit](https://cardinalkit.org) is an open-source digital health mobile app framework created at Stanford University consisting of an iOS mobile application template, Google Cloud managed backend, and web-based data dashboard. CardinalKit makes it easy to build a mobile application that collects patient-generated health data, including from wearable devices (e.g. Apple Watch, Fitbit), and represent these data in standardized formats. This Implementation Guide describes how CardinalKit represents mobile health data as FHIR resources.
 
 ### Data Workflow
 
@@ -12,7 +12,7 @@ The CardinalKit framework provides a [mapper module](https://github.com/Cardinal
 
 ### Publisher
 
-This Implementation Guide was written in FSH, and built with SUSHI and the FHIR Publisher by [Vishnu Ravi](https://profiles.stanford.edu/vishnu-ravi). CardinalKit is a project at the [Stanford Byers Center for Biodesign](https://biodesign.stanford.edu) at [Stanford University](https://stanford.edu/).
+This Implementation Guide was written in [FSH](https://fshschool.org/), and built with [SUSHI](https://github.com/FHIR/sushi) and [IG Publisher](https://confluence.hl7.org/display/FHIR/IG+Publisher+Documentation) by [Vishnu Ravi](https://profiles.stanford.edu/vishnu-ravi). CardinalKit is a project at the [Stanford Byers Center for Biodesign](https://biodesign.stanford.edu) at [Stanford University](https://stanford.edu/).
 
 ### Licensing
 
