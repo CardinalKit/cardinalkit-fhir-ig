@@ -1,13 +1,9 @@
-<!-- get modelType -->
-
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>FHIR.CKMHEALTHTOFHIR\OMH to FHIR Modality Extension - Mappings - FHIR v4.0.1</title>
+    <title>FHIR.CKMHEALTHTOFHIR\Downloads - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -44,8 +40,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"7.2"}
-    h3,h4,h5,h6{--heading-prefix:"7.2"}</style>
+    <style type="text/css">h2{--heading-prefix:"6"}
+    h3,h4,h5,h6{--heading-prefix:"6"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -122,7 +118,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>OMH to FHIR Modality Extension</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Downloads</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -134,8 +130,16 @@
         <div class="row">
           <div class="inner-wrapper">
 
-<div style="counter-reset: section 5" class="col-12">
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">CardinalKit Mobile Health Data FHIR Implementation Guide - Local Development build (v1.0.0). See the <a href="http://cardinalkit.org/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Downloads</h2>
   
 
 
@@ -149,95 +153,34 @@
 
 
 
-<ul class="nav nav-tabs">
-
-  <li>
-    <a href="StructureDefinition-extension-modality.html">Content</a>
-  </li>
-
-
-
-  <li>
-    <a href="StructureDefinition-extension-modality-definitions.html">Detailed Descriptions</a>
-  </li>
-
-
-
-  
-    <li class="active">
-      <a href="#">Mappings</a>
-    </li>
-  
-
-
-
-
-
-  
-    <li>
-      <a href="StructureDefinition-extension-modality.profile.xml.html">XML</a>
-    </li>
-  
-
-
-  
-    <li>
-      <a href="StructureDefinition-extension-modality.profile.json.html">JSON</a>
-    </li>
-  
-
-
-  
-    <li>
-      <a href="StructureDefinition-extension-modality.profile.ttl.html">TTL</a>
-    </li>
-  
-
-
+    <p><!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#package-file" id="markdown-toc-package-file">Package File</a></li>
+  <li><a href="#downloadable-copy-of-entire-specification" id="markdown-toc-downloadable-copy-of-entire-specification">Downloadable Copy of Entire Specification</a></li>
 </ul>
 
+</div>
 
-<a name="root"> </a>
-<h2 id="root">Extension: OmhModalityExtension - Mappings</h2>
-  <table class="colsi">
-    <tr>
+<h3 id="package-file">Package File</h3>
 
-      <td colspan="2">
-        
-          Active
-          
-            as of 2019-06-06
-          
-        
-      </td>
+<p>The following package file contains all the value sets, profiles, extensions, list of pages and urls in the IG, etc defined as part of the this version of the Implementation Guides. This file should be the first choice whenever generating any implementation artifacts since it contains all of the rules about what makes the profiles valid. Implementers will still need to be familiar with the content of the specification and profiles that apply in order to make a conformant implementation. See the overview on validating <a href="http://hl7.org/fhir/R4/validation.html">FHIR profiles and resources</a>:</p>
 
-    </tr>
-  </table>
+<ul>
+  <li><a href="package.tgz">Package</a></li>
+</ul>
 
+<h3 id="downloadable-copy-of-entire-specification">Downloadable Copy of Entire Specification</h3>
 
-<p>Mappings for the extension-modality extension.</p>
+<p>A downloadable version of this IG is available so it can be hosted locally:</p>
 
-  <!-- insert intro if present -->
-  
-
-
-
-  <a name="rim"> </a><h3>Mappings for RIM Mapping (<a href="http://hl7.org/comparison-v3.html">http://hl7.org/v3</a>)</h3><table class="grid">
- <tr><td colspan="3"><b>OmhModalityExtension</b></td></tr>
- <tr><td>Extension</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;url</td><td>N/A</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;value[x]</td><td>N/A</td> </tr>
-</table>
-
-
-  <!-- insert notes if present -->
-  
+<ul>
+  <li><a href="full-ig.zip">Downloadable Copy</a></li>
+</ul>
 
 
 
 </div>
-
         </div>  <!-- /inner-wrapper -->
       </div>  <!-- /row -->
     </div>  <!-- /container -->
@@ -245,29 +188,6 @@
 
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
-
-  <script type="text/javascript">
-    try {
-      var currentTabIndex = sessionStorage.getItem('fhir-resource-tab-index');
-    } catch(exception) {
-    }
-
-    if (!currentTabIndex)
-      currentTabIndex = '0';
-
-    $( '#tabs' ).tabs({
-      active: currentTabIndex,
-      activate: function( event, ui ) {
-        var active = $('.selector').tabs('option', 'active');
-        currentTabIndex = ui.newTab.index();
-        document.activeElement.blur();
-        try {
-          sessionStorage.setItem('fhir-resource-tab-index', currentTabIndex);
-        } catch(exception) {
-        }
-      }
-    });
-  </script>
 
   <script type="text/javascript">
     $(document).ready(function(){

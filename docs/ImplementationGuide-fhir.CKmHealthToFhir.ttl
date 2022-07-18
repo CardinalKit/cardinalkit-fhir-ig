@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "CKmHealthFhirIG"];
   fhir:ImplementationGuide.title [ fhir:value "CardinalKit Mobile Health Data FHIR Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-07-17T19:25:35-04:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-07-18T09:13:15-04:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Stanford Byers Center for Biodesign"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -451,6 +451,11 @@
          fhir:index 4;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "5_examples.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Examples" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 5;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "6_downloads.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Downloads" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ]
      ];
