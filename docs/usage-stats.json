@@ -17,6 +17,12 @@
         "url": "http://cardinalkit.org/fhir/StructureDefinition/ck-obs",
         "title": "CardinalKit mHealth Observation Profile"
       }
+    ],
+    "Questionnaire": [
+      {
+        "url": "http://cardinalkit.org/fhir/StructureDefinition/ck-questionnaire",
+        "title": "CardinalKit Questionnaire Profile"
+      }
     ]
   },
   "usage": {

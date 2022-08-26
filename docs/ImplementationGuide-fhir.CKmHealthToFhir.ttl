@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "CKmHealthFhirIG"];
   fhir:ImplementationGuide.title [ fhir:value "CardinalKit Mobile Health Data FHIR Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-07-18T09:13:15-04:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-08-26T08:36:43-04:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Stanford Byers Center for Biodesign"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -343,6 +343,20 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://cardinalkit.org/fhir/StructureDefinition/ck-questionnaire>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ck-questionnaire" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CardinalKit Questionnaire Profile" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Questionnaire Profile used to represent surveys rendered on mobile devices" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -353,7 +367,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "How the measure was obtained - either sensed or self-reported." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 2;
+       fhir:index 3;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -367,7 +381,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Implicit OMH units (not explicitly enumerated in the schemas) needed for OMH to FHIR mapping" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 3;
+       fhir:index 4;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -381,7 +395,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The modality whereby the measure is obtained.  Choice of sensed|self-reported ." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 4;
+       fhir:index 5;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -395,7 +409,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Represents the temporal relationship of a clinical measure or assessment to a meal (e.g. fasting, after breakfast)." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 5;
+       fhir:index 6;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -409,7 +423,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Represents the temporal relationship of a clinical measure or assessment to physical activity (e.g., at rest, during exercise)." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 6;
+       fhir:index 7;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
