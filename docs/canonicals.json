@@ -42,6 +42,13 @@
     "name": "CKQuestionnaireProfile"
   },
   {
+    "id": "ck-questionnaireresponse",
+    "type": "StructureDefinition",
+    "url": "http://cardinalkit.org/fhir/StructureDefinition/ck-questionnaireresponse",
+    "version": "1.0.0",
+    "name": "CKQuestionnaireResponseProfile"
+  },
+  {
     "id": "extension-modality",
     "type": "StructureDefinition",
     "url": "http://cardinalkit.org/fhir/StructureDefinition/extension-modality",

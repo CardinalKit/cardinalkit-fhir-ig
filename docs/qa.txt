@@ -1,9 +1,9 @@
 ﻿CKmHealthFhirIG : Validation Results
 =========================================
 
-err = 0, warn = 9, info = 0
+err = 0, warn = 10, info = 0
 IG Publisher Version: 1.1.128
-Generated Fri Aug 26 08:38:03 EDT 2022. FHIR version 4.0.1 for fhir.CKmHealthToFhir#1.0.0 (canonical = http://cardinalkit.org/fhir)
+Generated Sat Aug 27 23:49:05 EDT 2022. FHIR version 4.0.1 for fhir.CKmHealthToFhir#1.0.0 (canonical = http://cardinalkit.org/fhir)
  Build Errors : 2 / 0 / 0
  C:\Users\User\code\cardinalkit-fhir-ig\fsh-generated\resources\ImplementationGuide-fhir.CKmHealthToFhir : 0 / 0 / 1
  C:\Users\User\code\cardinalkit-fhir-ig\fsh-generated\resources\codesystem-omh-temporal-relationship-to-meal : 0 / 0 / 1
@@ -11,6 +11,7 @@ Generated Fri Aug 26 08:38:03 EDT 2022. FHIR version 4.0.1 for fhir.CKmHealthToF
  C:\Users\User\code\cardinalkit-fhir-ig\fsh-generated\resources\codesystem-omh-temporal-relationship-to-sleep : 0 / 0 / 1
  C:\Users\User\code\cardinalkit-fhir-ig\fsh-generated\resources\structuredefinition-ck-obs : 0 / 1 / 1
  C:\Users\User\code\cardinalkit-fhir-ig\fsh-generated\resources\structuredefinition-ck-questionnaire : 0 / 1 / 1
+ C:\Users\User\code\cardinalkit-fhir-ig\fsh-generated\resources\structuredefinition-ck-questionnaireresponse : 0 / 1 / 1
  C:\Users\User\code\cardinalkit-fhir-ig\fsh-generated\resources\structuredefinition-extension-modality : 0 / 3 / 1
  C:\Users\User\code\cardinalkit-fhir-ig\fsh-generated\resources\valueset-omh-device-modality : 0 / 1 / 1
  C:\Users\User\code\cardinalkit-fhir-ig\fsh-generated\resources\valueset-omh-unit-value : 0 / 3 / 1
@@ -26,6 +27,8 @@ ERROR: C:\Users\User\code\cardinalkit-fhir-ig\output\5_examples.html#/html/body/
 WARNING: StructureDefinition.where(url = 'http://cardinalkit.org/fhir/StructureDefinition/ck-obs'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-ck-questionnaire.json ==
 WARNING: StructureDefinition.where(url = 'http://cardinalkit.org/fhir/StructureDefinition/ck-questionnaire'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-ck-questionnaireresponse.json ==
+WARNING: StructureDefinition.where(url = 'http://cardinalkit.org/fhir/StructureDefinition/ck-questionnaireresponse'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-extension-modality.json ==
 WARNING: StructureDefinition/extension-modality: StructureDefinition.differential.element[3].binding: The valueSet reference http://www.fhir.org/guides/omhtofhir/ValueSet/modality-codes on element Extension.value[x] could not be resolved
 WARNING: StructureDefinition/extension-modality: StructureDefinition.snapshot.element[4].binding: The valueSet reference http://www.fhir.org/guides/omhtofhir/ValueSet/modality-codes on element Extension.value[x] could not be resolved

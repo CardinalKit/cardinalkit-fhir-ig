@@ -10,7 +10,7 @@
   "name": "CKmHealthFhirIG",
   "title": "CardinalKit Mobile Health Data FHIR Implementation Guide",
   "status": "active",
-  "date": "2022-08-26T08:36:43-04:00",
+  "date": "2022-08-27T23:48:29-04:00",
   "publisher": "Stanford Byers Center for Biodesign",
   "contact": [
     {
@@ -367,6 +367,20 @@
         },
         "name": "CardinalKit Questionnaire Profile",
         "description": "Questionnaire Profile used to represent surveys rendered on mobile devices",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ck-questionnaireresponse"
+        },
+        "name": "CardinalKit QuestionnaireResponse Profile",
+        "description": "QuestionnaireResponse Profile used to represent survey results in CardinalKit applications",
         "exampleBoolean": false
       },
       {

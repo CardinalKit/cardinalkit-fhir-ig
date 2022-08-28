@@ -10,6 +10,7 @@ Description: "Questionnaire Profile used to represent surveys rendered on mobile
 * identifier 1..1 MS
 * name 0..1 MS
 * title 0..1 MS
-* status MS
+* status 1..1 MS
 * subjectType MS
 * date MS
+* item 1..* MS

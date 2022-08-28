@@ -11,7 +11,7 @@
   <name value="CKmHealthFhirIG"/>
   <title value="CardinalKit Mobile Health Data FHIR Implementation Guide"/>
   <status value="active"/>
-  <date value="2022-08-26T08:36:43-04:00"/>
+  <date value="2022-08-27T23:48:29-04:00"/>
   <publisher value="Stanford Byers Center for Biodesign"/>
   <contact>
     <name value="Stanford Byers Center for Biodesign"/>
@@ -238,6 +238,17 @@
       </reference>
       <name value="CardinalKit Questionnaire Profile"/>
       <description value="Questionnaire Profile used to represent surveys rendered on mobile devices"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ck-questionnaireresponse"/>
+      </reference>
+      <name value="CardinalKit QuestionnaireResponse Profile"/>
+      <description value="QuestionnaireResponse Profile used to represent survey results in CardinalKit applications"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

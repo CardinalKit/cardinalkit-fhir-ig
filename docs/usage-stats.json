@@ -23,6 +23,12 @@
         "url": "http://cardinalkit.org/fhir/StructureDefinition/ck-questionnaire",
         "title": "CardinalKit Questionnaire Profile"
       }
+    ],
+    "QuestionnaireResponse": [
+      {
+        "url": "http://cardinalkit.org/fhir/StructureDefinition/ck-questionnaireresponse",
+        "title": "CardinalKit QuestionnaireResponse Profile"
+      }
     ]
   },
   "usage": {
